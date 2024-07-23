@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasted Layouts Technique</title>
+    <style>
+        .bar {
+            display: block;
+            font-size: 15px;
+        }
+
+        .img {
+            width: 300px;
+
+        }
+
+        .title {
+            width: 260px;
+            margin-top: 0px;
+            font-weight: bold;
+            font-family: Arial;
+            font-size: 14px;
+        }
+
+        .slot-first {
+            width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 15px;
+        }
+
+        .dp {
+            display: inline-block;
+            width: 40px;
+            vertical-align: top;
+
+        }
+
+        .info {
+            display: inline-block;
+            width: 200px;
+
+        }
+
+        .pp {
+            width: 40px;
+            border-radius: 100px;
+        }
+
+        .title-row {
+            margin-top: 12px;
+
+        }
+
+        .views {
+            font-size: 12px;
+            margin-top: 12px;
+
+        }
+
+        .author {
+            margin-bottom: 4px;
+        }
+
+        p {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <input class="bar" type="text" placeholder="Search">
+
+    <div class="slot-first">
+        <div> <img class="img" src="img-1.webp">
+        </div>
+
+        <div class="title-row">
+            <div class="dp"><img class="pp" src="1_profile.jpg"></div>
+            <div class="info">
+                <p class="title">Lorem ipsum dolor sit amet consect adipisicing elit. Cumque, incidunt?</p>
+                <div class="views">
+                    <p class="author">Lorem, ipsum.</p>
+
+                    <p>3.04M views &#183; 5 months ago</p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <div class="slot-first">
+        <div> <img class="img" src="img-2.webp">
+        </div>
+
+        <div class="title-row">
+            <div class="dp"><img class="pp" src="2_profile.jpg"></div>
+            <div class="info">
+                <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia doloremque facilis sit!
+                </p>
+                <div class="views">
+                    <p class="author">Lorem, ipsum dolor.</p>
+
+                    <p>300M views &#183; 5 years ago</p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+.tahoma-eg {
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+.arial-eg {
+    font-family: Arial;
+    font-size: 20px;
+    width: 250px;
+    margin-top: 50px;
+}
+
+.arial-span {
+    color: red;
+    font-size: 18px;
+    
+}
+
+.verdana-title {
+    font-family: Verdana;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.verdana-head {
+    font-family: Verdana;
+    margin-top: 3px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 0px;
+}
+
+.verdana-para {
+    font-family: Verdana;
+    width: 230px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.verdana-button {
+    color: white;
+    background-color: green;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    font-family: Verdana;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.arial2-title {
+    font-family: arial;
+    font-size: 20px;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 8px;
+}
+
+.arial2-head {
+    margin-top: 0px;
+    font-family: Arial;
+    font-size: 12px;
+    width: 250px;
+    text-align: center;
+}
+
+.arial2-foot {
+    color: blue;
+    width: 250px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 11px;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+.item {
+    font-family: Arial;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+.item-span {
+    font-family: Arial;
+    font-size: 15px;
+    margin-left: 7px;
+    margin-bottom: 0px;
+}
+
+.item-deal {
+    font-family: Arial;
+    font-size: 15px;
+    color: green;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.item-body {
+    font-family: Arial;
+    margin-top: 5px;
+}
+.itembody-span {
+    color: red;
+    margin-bottom: 0px;
+}
+
+.code-camp {
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.code-span {
+    color: rgb(96, 96, 96);
+    margin-bottom: 0px;
+}
+
+.code-body {
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 4px;
+    width: 470px;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+
+.code-foot {
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.codefoot-span {
+    color: blue;
+}

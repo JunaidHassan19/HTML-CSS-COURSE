@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow</title>
+    <style>
+        .shodow-button{
+            background-color: green;
+            color: white;
+            border: none;
+            font-size: 25px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 35px;
+            padding-right: 35px;
+            cursor: pointer;
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
+        }
+
+        .shodow-button:active{
+            box-shadow: none;
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button class="shodow-button">Shadow</button>
+</body>
+</html>

@@ -1,0 +1,114 @@
+.name-prac {
+    display: block;
+    margin-bottom: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.email-prac {
+    display: block;
+    margin-top: 0px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.paragraph-prac {
+    width: 250px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.google-logo {
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
+    display: block;
+}
+
+.google-bar {
+    display: block;
+    width: 400px;
+    height: 20px;
+    border-radius: 100px;
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+
+
+.first-name,
+.last-name {
+    display: inline-block;
+    font-size: 20px;
+    width: 180px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.email-bar {
+    display: block;
+    font-size: 20px;
+    width: 370px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.sign-up {
+
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 380px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+
+.uber-title {
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    display: block;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.pickup,
+.destination {
+    font-size: 20px;
+    background-color: rgb(197, 192, 192);
+    display: block;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-left: 100px;
+    width: 350px;
+}
+
+.req-btn {
+    background-color: black;
+    color: white;
+    margin-left: 100px;
+    margin-top: 20px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;cursor: pointer;
+}
+
+.later-btn {
+    background-color: rgb(197, 192, 192);
+    color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
