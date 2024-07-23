@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS display property</title>
+    <style>
+        .img-dis {
+            width: 250px;
+            display: block;  /* inline-block =>block*/
+        }
+
+        .title-dis {
+            width: 250px;
+        }
+
+           /*
+        .author-dis {
+            display: inline-block;
+        }
+                                             block => inline-block
+        .views-dis {
+            display: inline-block;
+        }
+              OR       */
+        .author-dis,
+        .views-dis {
+            display: block;
+        }
+
+
+
+    </style>
+</head>
+<body> 
+    <input class="text-dis" type="text" placeholder="🔍Search">
+
+    <img class="img-dis" src="img-1.webp">
+
+    <p class="title-dis">Lorem ipsum dolor sit amet, dolor sit amet.dolor sit amet.</p>
+
+    <p class="author-dis">Lorem, ipsum dolor.</p>
+
+    <p class="views-dis">2.4M &#183; 6 months ago</p>
+
+</body>
+</html>
