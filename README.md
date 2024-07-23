@@ -39,7 +39,7 @@ This course is created by **Junaid Hassan**, a passionate web developer and stud
    - Responsive Design
 
 5. **Project**
-   - Building a Complete Website  ---> https://junaidhassan19.github.io/Junaid-s-Portfolio/
+   - Building a Complete Website  ---> https://junaidhassan19.github.io/Junaid-s-portfolio/
 
 ## Getting Started
 
