@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid practice</title>
+    <link rel="stylesheet" href="CSS Grid practice.css">
+</head>
+<body>
+    <div class="project3-grid">
+        <div class="div-three">
+            <img class="divthree-img" src="img-1.webp">
+    
+            <p class="divthree-head">Xoxo</p>
+    
+            <img class="profile-picture" src="3_profile.jpg">
+            <p class="divthree-body">9 mutual friends</p>
+    
+            <button class="divthree-btn">Add Friend</button>
+        </div>
+        <div class="div-three">
+            <img class="divthree-img" src="img-2.webp">
+    
+            <p class="divthree-head">Captain</p>
+            
+            <img class="profile-picture" src="2_profile.jpg">
+            <p class="divthree-body">5 mutual friends</p>
+    
+            <button class="divthree-btn">Add Friend</button>
+        </div>
+        <div class="div-three">
+            <img class="divthree-img" src="img-3.webp">
+    
+            <p class="divthree-head">Rex</p>
+    
+            <img class="profile-picture" src="1_profile.jpg">
+            <p class="divthree-body">2 mutual friends</p>
+    
+            <button class="divthree-btn">Add Friend</button>
+        </div>
+
+    </div>
+    
+
+    
+
+
+    <div style="display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 8px;
+    row-gap: 10px;
+    margin-top: 50px;">
+        <div style="background-color: lightblue; height: 200px;">1fr</div>
+        <div style="background-color: lightpink;height: 200px;">1fr</div>
+        <div style="background-color: lightblue;height: 200px;">1fr</div>
+        <div style="background-color: lightpink;height: 200px;">1fr</div>
+        <div style="background-color: lightblue;height: 200px;">1fr</div>
+        <div style="background-color: lightpink;height: 200px;">1fr</div>
+    </div>
+
+
+
+    <!---i use INLINE CSS in this lesson-->
+    <div style="display: grid;
+       grid-template-columns: 200px 75px;
+       margin-bottom: 50px;
+       margin-top: 200px;">
+        <div style="background-color: lightblue;">200px</div>
+        <div style="background-color: lightpink;">75px</div>
+    </div>
+
+    <div style="display: grid;
+    grid-template-columns: 50px 75px 50px;
+    margin-bottom: 50px;">
+        <div style="background-color: lightpink;">50px</div>
+        <div style="background-color: lightblue;">75px</div>
+        <div style="background-color: lightpink;">50px</div>
+    </div>
+
+    <div style="display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;">
+        <div style="background-color: lightblue;">1fr</div>
+        <div style="background-color: lightpink;">1fr</div>
+        <div style="background-color: lightblue;">1fr</div>
+        <div style="background-color: lightpink;">1fr</div>
+        <div style="background-color: lightblue;">1fr</div>
+        <div style="background-color: lightpink;">1fr</div>
+    </div>
+</body>
+
+</html>

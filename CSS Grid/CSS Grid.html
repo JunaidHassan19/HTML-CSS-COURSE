@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .thumbnail {
+            width: 100%;
+            height: 100%;
+        }
+
+        .profile-picture {
+            width: 45px;
+            border-radius: 45px;
+            
+        }
+
+        .title
+         {
+            width: 250px;
+            font-size: 14px;
+            font-weight: bold;
+            font-family: Roboto, Arial;
+            line-height: 20px;
+            margin-left: 10px;
+            margin-top: 5px;
+            margin-bottom: 0px;
+        }
+
+
+
+        .channal {
+            margin-left: 10px;
+            margin-top: 5px;
+            font-size: 11px;
+            font-family: Roboto, Arial;
+            margin-bottom: 0px;
+        }
+
+        .views {
+            margin-left: 10px;
+            font-size: 11px;
+            font-family: Roboto, Arial;
+            margin-top: 3px;
+        }
+
+        .video-info-grid {
+            display: grid;
+            grid-template-columns: 45px 1fr;
+        }
+        .video-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 16px;
+            row-gap: 30px;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" placeholder="Search">
+    <div class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-div">
+                <img class="thumbnail" src="img-1.webp">
+            </div>
+            <div class="video-info-grid">
+                <div class="channal-picture">
+                    <img class="profile-picture" src="1_profile.jpg">
+                </div>
+    
+                <div class="video-info">
+                    <p class="title">Tom & Jerry | A Bit of Fresh Air! | Classic Cartoon Compilation | @WB Kids</p>
+    
+                    <p class="channal">WB Kids ✓</p>
+    
+                    <p class="views">405M views &#183; 2 years ago</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-div">
+                <img class="thumbnail" src="img-2.webp">
+            </div>
+            <div class="video-info-grid">
+                <div class="channal-picture">
+                    <img class="profile-picture" src="2_profile.jpg">
+                </div>
+    
+                <div class="video-info">
+                    <p class="title">Mr Bean To The Rescue! | Mr Bean Live Action | Funny Clips | Mr Bean</p>
+    
+                    <p class="channal">Mr Bean ✓</p>
+    
+                    <p class="views">40M views &#183; 1 year ago</p>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="video-preview">
+            <div class="thumbnail-div">
+                <img class="thumbnail" src="img-3.webp">
+            </div>
+            <div class="video-info-grid">
+                <div class="channal-picture">
+                    <img class="profile-picture" src="3_profile.jpg">
+                </div>
+    
+                <div class="video-info">
+                    <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eligendi corrupti fugiat!</p>
+    
+                    <p class="channal">Lorem, ipsum dolor. ✓</p>
+    
+                    <p class="views">103K views &#183; 2 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-div">
+                <img class="thumbnail" src="img-2.webp">
+            </div>
+            <div class="video-info-grid">
+                <div class="channal-picture">
+                    <img class="profile-picture" src="2_profile.jpg">
+                </div>
+    
+                <div class="video-info">
+                    <p class="title">Mr Bean To The Rescue! | Mr Bean Live Action | Funny Clips | Mr Bean</p>
+    
+                    <p class="channal">Mr Bean ✓</p>
+    
+                    <p class="views">40M views &#183; 1 year ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-div">
+                <img class="thumbnail" src="img-1.webp">
+            </div>
+            <div class="video-info-grid">
+                <div class="channal-picture">
+                    <img class="profile-picture" src="1_profile.jpg">
+                </div>
+    
+                <div class="video-info">
+                    <p class="title">Tom & Jerry | A Bit of Fresh Air! | Classic Cartoon Compilation | @WB Kids</p>
+    
+                    <p class="channal">WB Kids ✓</p>
+    
+                    <p class="views">405M views &#183; 2 years ago</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-div">
+                <img class="thumbnail" src="img-3.webp">
+            </div>
+            <div class="video-info-grid">
+                <div class="channal-picture">
+                    <img class="profile-picture" src="3_profile.jpg">
+                </div>
+    
+                <div class="video-info">
+                    <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eos ducimus repellat?</p>
+    
+                    <p class="channal">Lorem, ipsum. ✓</p>
+    
+                    <p class="views">400K views &#183; 1 year ago</p>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="video-preview">
+            <div class="thumbnail-div">
+                <img class="thumbnail" src="img-1.webp">
+            </div>
+            <div class="video-info-grid">
+                <div class="channal-picture">
+                    <img class="profile-picture" src="1_profile.jpg">
+                </div>
+    
+                <div class="video-info">
+                    <p class="title">Tom & Jerry | A Bit of Fresh Air! | Classic Cartoon Compilation | @WB Kids</p>
+    
+                    <p class="channal">WB Kids ✓</p>
+    
+                    <p class="views">405M views &#183; 2 years ago</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-div">
+                <img class="thumbnail" src="img-2.webp">
+            </div>
+            <div class="video-info-grid">
+                <div class="channal-picture">
+                    <img class="profile-picture" src="2_profile.jpg">
+                </div>
+    
+                <div class="video-info">
+                    <p class="title">Mr Bean To The Rescue! | Mr Bean Live Action | Funny Clips | Mr Bean</p>
+    
+                    <p class="channal">Mr Bean ✓</p>
+    
+                    <p class="views">40M views &#183; 1 year ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: 100px 1fr;
+                ">
+            <div style="background-color: lightblue;">100px</div>
+            <div style="background-color: lightpink;">1fr<p>
+            </div>
+        </div>
+
+
+        <div style="
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: 100px 1fr 2fr;
+                ">
+            <div style="background-color: lightblue;">100px</div>
+            <div style="background-color: lightpink;">1fr<p>
+            </div>
+            <div style="background-color: lightblue;">2fr</div>
+        </div>
+
+        <div style="
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 20px;
+                row-gap: 40px;
+                ">
+            <div style="background-color: lightblue; height: 200px;">1fr</div>
+            <div style="background-color: lightpink; height: 200px;">1fr<p>
+            </div>
+            <div style="background-color: lightblue; height: 200px;">1fr</div>
+            <div style="background-color: lightpink; height: 200px;">1fr<p>
+            </div>
+            <div style="background-color: lightblue; height: 200px;">1fr</div>
+            <div style="background-color: lightpink; height: 200px;">1fr<p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
