@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox practice</title>
+
+    <!--i use inline css in this lesson-->
+</head>
+
+<body style="margin: 0;">
+
+    <div style="display: flex;
+        flex-direction: row;
+        margin-bottom: 100px;
+        border: solid;
+        width: 275px;
+        height: 30px;
+        border-width: 1PX;
+        border-color: gray;
+        ">
+            <div style="background-color: lightblue; width: 200px;">200px</div>
+            <div style="background-color: lightpink; width: 75px;">75px</div>
+    </div>
+
+
+    <div style="display: flex;
+        flex-direction: row;
+        margin-bottom: 100px;
+        border: solid;
+        border-width: 1px;
+        border-color: gray;
+        height: 30px;
+
+        ">
+        <div style="background-color: lightblue; width: 50px;">item1</div>
+        <div style="background-color: lightpink; flex: 1;">item2</div>
+        <div style="background-color: lightblue; width: 75px;">item3</div>
+    </div>
+
+
+    <div style="display: flex;
+        flex-direction: row;
+        margin-bottom: 100px;
+        border: solid;
+        border-width: 1px;
+        border-color: gray;
+        height: 30px;
+        justify-content: space-between;
+        ">
+        <div style="background-color: lightpink;">item1</div>
+        <div style="background-color: lightpink;">item2</div>
+        <div style="background-color: lightpink;">item3</div>
+        <div style="background-color: lightpink;">item4</div>
+    </div>
+
+    <div style="display: flex;
+        flex-direction: row;
+        margin-bottom: 100px;
+        border: solid;
+        border-width: 1px;
+        border-color: gray;
+        height: 30px;
+        justify-content: space-between;
+        align-items: center;
+        ">
+        <div style="background-color: lightpink;">item1</div>
+        <div style="background-color: lightpink;">item2</div>
+    </div>
+
+
+
+    <div class="main"
+        style="border: solid 1px;
+        width: 260px;
+        margin-bottom: 100px;
+        box-shadow: 3px 3px 3px rgba(22, 88, 153, 5);
+        ">
+        <div class="body-flex" style="display: flex; 
+            flex-direction: row;
+            width: 250px;
+            height: 30px;
+            justify-content: space-between;
+            align-items: center;
+            ">
+            <div class="home-flex">
+                <p style="font-family: Arial;
+                font-size: 15px;
+                font-weight: bold;
+                ">Home</p>
+            </div>
+            <div class="button-flex">
+                <Button style="background-color: blue;
+                color: white;
+                font-size: 15px;
+                border-radius: 10px;
+                border: none;
+                ">14</Button>
+            </div>
+        </div>
+
+
+        <div class="Notification-flex" style="display: flex;
+            flex-direction: row;
+            width: 250px;
+            height: 30px;
+            justify-content: space-between;
+            align-items: center;
+            ">
+            <div class="home-flex">
+                <p style="font-family: Arial;
+                font-size: 15px;
+                font-weight: bold;
+                ">Notification</p>
+            </div>
+            <div class="button-flex">
+                <Button style="background-color: blue;
+                color: white;
+                font-size: 15px;
+                border-radius: 10px;
+                border: none;
+                ">6</Button>
+            </div>
+
+        </div>
+
+
+        <div class="Messages-flex" style="display: flex;
+            flex-direction: row;
+            width: 250px;
+            height: 30px;
+            justify-content: space-between;
+            align-items: center;
+            ">
+            <div class="home-flex">
+                <p style="font-family: Arial;
+                font-size: 15px;
+                font-weight: bold;
+                ">Messages</p>
+            </div>
+            <div class="button-flex">
+                <Button style="background-color: blue;
+                color: white;
+                font-size: 15px;
+                border-radius: 10px;
+                border: none;
+                ">10</Button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <div style="display: flex;
+        border: none;
+        width: 300px;
+        height: 57px;
+        justify-content: space-between;
+        text-align: left;
+        margin-bottom: 10px;
+        box-shadow: 10px 5px 20px rgba(22, 88, 153, 5);
+        
+        ">
+        <div>
+            <img src="1_profile.jpg"
+            style="width: 50px;
+            height: 57;
+             border-radius: 50px;
+             margin-top: 3.5px;
+            "
+            >
+        </div>
+
+        <div style="
+         flex: 1;
+         font-family: Arial;
+         margin-left: 5px;
+         ">
+            <p class="title" style="font-size: 15px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            ">Oliver</p>
+
+            <p class="name" style="font-size: 12px;
+            margin-top: 4px;
+            margin-bottom: 0px;
+            color: rgb(96, 96, 96);
+            ">The Cat</p>
+            <p class="popular" style="font-size: 12px;
+            margin-top: 4px;
+            color: rgb(96, 96, 96);
+            ">Popular</p>
+        </div>
+
+        <div style="
+        margin-top: 15px;
+        margin-right: 5px;
+        ">
+            <button style="background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+
+            ">Follow</button>
+        </div>
+    </div>
+
+
+    <div style="display: flex;
+        border: none;
+        width: 300px;
+        height: 57px;
+        justify-content: space-between;
+        text-align: left;
+        margin-bottom: 10px;
+        box-shadow: 10px 5px 20px rgba(22, 88, 153, 5);
+        ">
+        <div>
+            <img src="2_profile.jpg"
+            style="width: 50px;
+            height: 57;
+             border-radius: 50px;
+             margin-top: 3.5px;
+            "
+            >
+        </div>
+
+        <div style="
+         flex: 1;
+         font-family: Arial;
+         margin-left: 5px;
+         ">
+            <p class="title" style="font-size: 15px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            ">Mr Bean</p>
+
+            <p class="name" style="font-size: 12px;
+            margin-top: 4px;
+            margin-bottom: 0px;
+            color: rgb(96, 96, 96);
+            ">One Who</p>
+            <p class="popular" style="font-size: 12px;
+            margin-top: 4px;
+            color: rgb(96, 96, 96);
+            ">Popular</p>
+        </div>
+
+        <div style="
+        margin-top: 15px;
+        margin-right: 5px;
+        ">
+            <button style="background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+
+            ">Follow</button>
+        </div>
+    </div>
+
+
+    <div style="display: flex;
+        border: none;
+        width: 300px;
+        height: 57px;
+        justify-content: space-between;
+        text-align: left;
+        margin-bottom: 100px;
+        box-shadow: 10px 5px 20px rgba(22, 88, 153, 5);
+        ">
+        <div>
+            <img src="3_profile.jpg"
+            style="width: 50px;
+            height: 57;
+             border-radius: 50px;
+             margin-top: 3.5px;
+            "
+            >
+        </div>
+
+        <div style="
+         flex: 1;
+         font-family: Arial;
+         margin-left: 5px;
+         ">
+            <p class="title" style="font-size: 15px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            ">Rex</p>
+
+            <p class="name" style="font-size: 12px;
+            margin-top: 4px;
+            margin-bottom: 0px;
+            color: rgb(96, 96, 96);
+            ">Happy Bulldog</p>
+            <p class="popular" style="font-size: 12px;
+            margin-top: 4px;
+            color: rgb(96, 96, 96);
+            ">Popular</p>
+        </div>
+
+        <div style="
+        margin-top: 15px;
+        margin-right: 5px;
+        ">
+            <button style="background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+
+            ">Follow</button>
+        </div>
+    </div>
+
+
+
+    <div style="display: flex;
+    flex-direction: row;
+    background-color: purple;
+    height: 50px;
+    width: 400px;
+    margin-bottom: 100px;
+    align-items: center;
+    ">
+        <div style=" width: 100px;
+        font-family: Arial;
+        font-size: 20px;
+        color: white;
+        ">Home</div>
+        <div style="flex: 1;"><input type="text" placeholder="Search"
+            style="height: 25px;
+            border-radius: 20px;
+            border: none;
+            "
+            ></div>
+        <div style=" width: 100px;"><button style="background-color: purple;
+        color: white;
+        border: solid white 2px;
+        font-family: Arial;
+        font-size: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        ">Download</button></div>
+    </div>
+
+</body>
+
+</html>
