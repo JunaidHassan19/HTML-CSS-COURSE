@@ -1,3 +1,6 @@
 #  Output
 
-![Stretch](https://github.com/user-attachments/assets/44e08ddf-d6d4-4010-a543-05ba8a362338)
+
+
+https://github.com/user-attachments/assets/67beef7a-d94d-42e0-ac3e-e4669b0f4547
+
